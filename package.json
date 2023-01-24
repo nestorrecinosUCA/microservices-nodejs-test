@@ -4,7 +4,9 @@
   "description": "A test for microservices",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon api/index.js",
+    "start": "node api/index.js"
   },
   "author": "Nestor Recinos",
   "license": "ISC",
